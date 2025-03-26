@@ -1,0 +1,28 @@
+.select {
+    user-select: none;
+    cursor: pointer;
+    border: solid black 1px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 105px;
+}
+
+.p{
+    text-align: center;
+    font-size: 16px;
+    padding: 8px 20px;
+}
+
+.list{
+    width: 102%;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    left:-1px;
+    background-color: white;
+    border: solid black 1px;
+}

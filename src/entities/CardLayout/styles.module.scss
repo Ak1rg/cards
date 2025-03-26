@@ -1,0 +1,25 @@
+.card{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding:20px 10px;
+}
+
+.topBtns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.text{
+    max-width: 215px;
+    height: 37px;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
